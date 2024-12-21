@@ -1,6 +1,8 @@
 import React from "react";
 import { Component } from "react";
 import Header from "./Header";
+import Order from "./Order";
+import Inventory from "./Inventory";
 
 export default class App extends Component {
     render() {
@@ -9,11 +11,11 @@ export default class App extends Component {
                 <div className="menu">
                     <Header />
                 </div>
-                {/*
-                <Inventory />
+                
+                
                 <Order />
-
-                */}
+                <Inventory />
+                
             </div>
         );
     }
